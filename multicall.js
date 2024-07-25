@@ -12,16 +12,16 @@ const { abi: PeripheryPaymentsABI } = require("@uniswap/v3-periphery/artifacts/c
 const { abi: MulticallABI } = require("@uniswap/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json");
 
 // For Polygon Mainnet
-// const V3SwapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564';
-// const WETHAddress = '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619';
-// const USDCAddress = '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359';
-// const UNIADDRESS = '0xb33EaAd8d922B1083446DC23f610c2567fB5180f';
+const V3SwapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564';
+const WETHAddress = '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619';
+const USDCAddress = '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359';
+const UNIADDRESS = '0xb33EaAd8d922B1083446DC23f610c2567fB5180f';
 
 //For Sepolia testnet
-const V3SwapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564'
-const WETHAddress = '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9';
-const USDCAddress = '0xf08A50178dfcDe18524640EA6618a1f965821715';
-const UNIADDRESS = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984';
+// const V3SwapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564'
+// const WETHAddress = '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9';
+// const USDCAddress = '0xf08A50178dfcDe18524640EA6618a1f965821715';
+// const UNIADDRESS = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984';
 
 const swapRouterContract = new ethers.Contract(
     V3SwapRouterAddress,
