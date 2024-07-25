@@ -9,8 +9,7 @@ This project uses the core smart contracts of uniswap v3 to swap n (n>1) tokens 
 
 1.Note: You should have sufficient balance of weth,usdc and uni tokens (atleast 0.0005 each)
 
-2.Network used: 1>Polygon Mainnet <br>
-                2>Sepolia Testnet <br>
+2.Network used: Polygon Mainnet OR Sepolia Testnet <br>
 You can change whichever you want to use inside multicall.js(line 14 & 20)
 
 
