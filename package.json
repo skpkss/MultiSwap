@@ -4,6 +4,7 @@
   "description": "",
   "main": "multicall.js",
   "scripts": {
+    "start": "node multicall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "@uniswap/v3-periphery": "^1.4.0",
     "@uniswap/v3-sdk": "^3.9.0",
     "dotenv": "^16.4.5",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "express": "^4.19.2"
   }
 }
