@@ -3,9 +3,9 @@
 This project uses the core smart contracts of uniswap v3 to swap n (n>1) tokens to one single token.
 
 ## Dependencies
-  dotenv
-  ethers
-  express
+  dotenv <br>
+  ethers <br>
+  express <br>
 
 1.Note: You should have sufficient balance of weth,usdc and uni tokens (atleast 0.0005 each)
 
