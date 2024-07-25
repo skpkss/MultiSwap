@@ -22,6 +22,8 @@ This project uses the core smart contracts of uniswap v3 to swap n (n>1) tokens 
 
    `npm start`
 
-3. After execution of this command,
+   Server will start running on port 3000
+
+4. After execution of this command,
       (i) Balance of weth and usdc should have reduced significantly.
       (ii) Balance of uni should be increased upon swapping.
